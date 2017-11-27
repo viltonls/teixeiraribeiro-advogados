@@ -1,0 +1,253 @@
+body, td, tr, span, div {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+}
+
+a.main {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	text-decoration:underline;
+}
+
+a.main:hover {
+	color: #808080;
+}
+
+
+
+/*  -------------------------------
+	Estilos da estrutura do sistema
+	------------------------------- */
+
+.structInfo {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #666666;
+}
+
+a.structInfo {
+	font-size: 9px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+a.structInfo:hover {
+	color: #999999;
+}
+
+
+.structMenu {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+.structNavigation {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #666666;
+}
+
+a.structNavigation {
+	color: #666666;
+}
+a.structNavigation:hover {
+	color: #999999;
+}
+
+.structTitle {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.structFilter {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+}
+
+.structFilterBox {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	border: 1px #606060 solid;
+	background-color: white;
+}
+
+.structFilterButton {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: white;
+	border: 1px #606060 solid;
+	background-color: gray;
+	padding:0px;
+}
+
+/* -----------------
+   Tela Simplificada
+   ----------------- */
+.structFilterSimple {
+	font-family: Arial, Helvetica;
+	font-size: 14px;
+	color: #404040;
+}
+
+.structFilterSimpleBox {
+	font-family: Arial, Helvetica;
+	font-size: 14px;
+	color: #404040;
+	border: 1px #606060 solid;
+	background-color: white;
+}
+
+.structFilterSimpleButton {
+	font-family: Arial, Helvetica;
+	font-size: 14px;
+	color: white;
+	border: 1px #606060 solid;
+	background-color: gray;
+	padding:2px;
+}
+
+
+form.nospace {display:inline;}
+
+/*  --------------------------------
+	Estilos de tabelas de relatórios
+	-------------------------------- */
+
+.reportTableHeader {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	background: #d0d0d0;
+	font-weight:bold;
+	padding:3px;
+}
+	
+.reportTable {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: white;
+	border: 1px #606060 solid;
+	padding:0px;
+}
+
+.reportCell {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: black;
+	padding:3px;
+}
+
+.reportCellGrid {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: black;
+	padding:3px;
+	border-bottom:1px solid silver;
+}
+
+.reportCellTotal {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: black;
+	background: #f0f0f0;
+	padding:3px;
+}
+
+
+/*  ----------------------------
+	Estilos da grade de listagem 
+	---------------------------- */
+
+.gridHeader {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	font-weight:bold;
+	padding-left:5px;
+	/* border-bottom:1px solid black; */
+}
+
+.gridHeaderTop {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	font-weight:bold;
+	padding-left:5px;
+}
+
+.gridLineEven {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	background:white;
+	border-bottom:1px solid silver;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:5px;
+    height:20px;
+}
+
+.gridLineOdd {
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color: #404040;
+	background: #F0F0F0;
+	border-bottom:1px solid silver;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:5px;
+    height:20px;
+}
+
+.gridContainer {
+	overflow: scroll;
+	overflow-x:hidden;
+}
+
+tr.gridHeader {
+	position:relative;
+	background-color:#dfdfdf;
+	/* border:1px black solid; */
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+tr.gridHeaderTop {
+	position:relative;
+	background-color:white;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+
+
+/*  --------------------------
+	Estilos do menu do sistema 
+	-------------------------- */
+
+.clCMEvent{position:absolute; z-index:300; width:100%; height:100%; clip:rect(0,100%,100%,0); left:0; top:0; visibility:hidden}
+.clCMAbs{position:absolute; width:10; height:10; left:0; top:0; visibility:hidden}
+.clT,.clTover,.clS,.clSover,.clS2,.clS2over{position:absolute; overflow:hidden; width:130; height:25; cursor:pointer; cursor:hand; font-family: verdana;}
+.clT,.clTover{position:absolute;padding:2px; font-size:10px; font-weight:bold; font-family: verdana;}
+.clT{position:absolute;color:white; }   
+.clTover{position:absolute;color:#FCCE55;}
+.clS,.clSover{position:absolute;padding:2px; font-size:10px; font-weight:bold}
+.clS2,.clS2over{position:absolute;padding:2px; font-size:10px;}
+.clS,.clS2{position:absolute;color:#006699; background-color:#CDDBEB; layer-background-color:#CDDBEB;}
+.clSover,.clS2over{position:absolute;color:#FCCE55;}
+.clSover,.clS2over,.clTover,.clB,.clBar{position:absolute;layer-background-color:#686868; background-color:#686868;}
+.clB{position:absolute;visibility:hidden; z-index:300; width:150; height:10}
+.clBar{position:absolute;width:10; height:10; visibility:hidden; }
+
+/*  ------------------
+	Estilos auxiliares 
+	------------------ */
+#dtA:hover { cursor: pointer; text-decoration: underline }
+#dtB:hover { cursor: pointer; text-decoration: underline }

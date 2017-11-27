@@ -1,0 +1,48 @@
+BODY, TD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #AEBE85;
+	font-size: 10px;
+	line-height: 15px;
+	
+}
+
+a.linkmenu:link{font: 10px;	color: #445C3B;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 10px; TEXT-DECORATION: none;	position: relative;	left: 5px;}a.linkmenu:visited {font: 10px;	color: #445C3B;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;line-height : 10px;	TEXT-DECORATION: none;	position: relative;	left: 5px;}
+a.linkmenu:active {font: 10px;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 10px; TEXT-DECORATION: none;}
+a.linkmenu:hover{font: 10px;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 10px; TEXT-DECORATION:underline;}
+
+a.linkext:link{font: 10px;	color: #445C3B;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 15px; TEXT-DECORATION: none;	position: relative;	left: 5px;}
+a.linkext:visited {font: 10px;	color: #445C3B;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 15px; TEXT-DECORATION: none;	position: relative;	left: 5px;}
+a.linkext:active {font: 10px;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 15px; TEXT-DECORATION: none;}
+a.linkext:hover{font: 10px;	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; line-height : 15px; TEXT-DECORATION:underline;}
+
+
+.fonte{
+	font: 10px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height : 18px;
+}
+
+.fontverde{
+	font: 10px;
+	color: #445C3B;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height : 18px;
+}
+/* link normal - fundo branco */
+a.rodape:link    {font-family: Arial, Helvetica, sans-serif; font-size: 8px; color: #012601; TEXT-DECORATION: none;}
+a.rodape:visited {font-family: Arial, Helvetica, sans-serif; font-size: 8px; color: #012601; TEXT-DECORATION: none;}
+a.rodape:active  {font-family: Arial, Helvetica, sans-serif; font-size: 8px; color: #012601; TEXT-DECORATION: none;}
+a.rodape:hover   {font-family: Arial, Helvetica, sans-serif; font-size: 8px; color: #012601; TEXT-DECORATION:underline;}
+
